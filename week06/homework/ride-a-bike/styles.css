@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #889fd4;
+}
+.page {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #FFF;
+}
+img {
+	border: none;
+}
+.header {
+	padding-top: 10px;
+}
+#breadcrumbs {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #000;
+	margin-right: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+	margin: 0px;
+	width: 237px;
+	list-style-type: none;
+	float: left;
+	padding: 0px;
+}
+a {
+	color: #000;
+	text-decoration: none;	
+}
+a:hover {
+	font-weight: bold;	
+}
+.nav a {
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	line-height: 50px;
+	font-size: 24px;
+	background-color: #FFFFFF;
+	color: #2c6e25;
+	text-decoration: none;
+	padding-left: 5px;
+	-webkit-transition: .1s ease-in-out;
+	-moz-transition: .1s ease-in-out;
+	-o-transition: .1s ease-in-out;
+	transition: .1s ease-in-out; 
+}
+.nav li .active {
+	background-color: #889fd4;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	color: #FFF;
+}
+.nav a:hover {
+	color: #000;
+	font-weight: normal;	
+}
+.nav ul a {
+	font-size: 18px;
+	font-style: italic;
+	text-decoration: none;
+	line-height: 35px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+.nav ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.nav li .benefits {
+	font-weight: bold;
+}
+.textarea ul {
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-position: outside;
+}
+.textarea ul li {
+	margin-bottom: 10px;
+}
+/*Home Start*/
+
+#slider {
+	padding: 0px;	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+}
+.maincontent {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 249px;
+	padding-top: 0px;
+	min-height: 350px;
+}
+
+.textarea {
+	width: 462px;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #000;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+h2 {
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.homelinks .image {
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 12px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.homelinks .image h2 {
+	margin-top: -180px;
+}
+.homelinks {
+	margin: 0px;
+	padding: 0px;
+}
+#breadcrumbs a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #000;
+}
+.footer {
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}.footer a {
+	margin-right: 20px;
+	padding: 0px;
+	margin-left: 12px;
+}
+.footer .copy {
+	text-align: right;
+	margin-left: 600px;
+}
+
+/*Benefits section*/
+
+.benefitslinks {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.benefitslinks .link {
+	float: left;
+	width: 225px;
+	margin-right: 12px;
+	background-color: #d3dde8;
+	height: 410px;
+}
+.benefitslinks img {
+	margin-bottom: 10px;
+}
+.benefitslinks p {
+	padding: 4px;
+	margin: 0px;
+}
+.more {
+	text-align: right;
+	font-style: italic;
+}
+
+/*Form Section*/
+
+.form {
+	border: 1px solid #000;
+	width: 450px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-right: 12px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+form #sub {
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.form .textarea {
+	width: 450px;
+}
+form p {
+	margin-top: 8px;
+	margin-bottom: 2px;
+}
+/*Secondary Pages Section*/
+
+.bodylinks .section {
+	height: 154px;
+	margin-bottom: 10px;
+	width: 699px;
+	background-color: #d3dde8;
+}
+.bodylinks .section img {
+	float: left;
+	margin-right: 10px;
+	border-right-width: 6px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+.bodylinks .section p {
+	padding-right: 10px;
+}
+/*Site Map Section*/
+
+.sitemap {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	list-style-type: none;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	padding-left: 5px;
+}
+.sitemap a {
+	text-decoration: none;
+	color: #000;
+}
+.sitemap ul li {
+	list-style-type: square;
+	color: #060;
+}
+/*Other Methods Section*/
+
+.banner {
+	margin-bottom: 10px;
+}
