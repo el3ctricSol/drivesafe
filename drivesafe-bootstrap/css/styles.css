@@ -22,16 +22,13 @@
       color: #FAF6F5;
   }
   .bg-2 {
-      background-color: #111111;
+      background-color: #333333;
       color: #FAF6F5;
   }
+
   .bg-3 {
-      background-color: #222222;
+      background-color: #333333;
       color: #216BE6;
-  }
-  .bg-4 {
-      background-color: #000000;
-      color: #FAF6F5;
   }
   .container-fluid {
       padding-top:10px;
@@ -86,6 +83,15 @@ h1,h2, h3, h4 {
       letter-spacing: 5px;
   }
 
+.navbar-brand {
+  float: left;
+  padding: 0px 15px !important;
+}
+
+.navbar {
+  height: 70px !important;
+}
+
 #navbar-logo {
   width: 75px;
   height: auto;
@@ -98,6 +104,7 @@ h1,h2, h3, h4 {
     #redcolor {
     color: #ee4518;
   }
-  }
+  
 
 
+}
