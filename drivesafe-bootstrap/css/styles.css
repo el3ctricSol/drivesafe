@@ -28,12 +28,17 @@
 
   .bg-3 {
       background-color: #333333;
-      color: #216BE6;
+      color: #fad201;
   }
+
+.bg-4 {
+  background-color: #333333;
+  color: #fcfbe3;
+}
+
   .container-fluid {
       padding-top:10px;
-      padding-bottom: 10px;
-  }
+}
 
   #footerleft {
     float: left;
@@ -45,9 +50,9 @@
 
   #footerright {
     float: right;
-    padding-right: 10px;
-    padding-top: 10px;
-    color: darkblue;
+    /*padding-right: 10px;
+    padding-top: 10px;*/
+    color: #fcfbe3;
    }
 
   #fontbigger {
@@ -56,7 +61,7 @@
 
   /*for changing dropdown panel attributes*/
 
-  .fontcolor {                
+  .fontcolor {
     color: #4208A8;
     font-size: 18px;
   }
@@ -104,7 +109,10 @@ h1,h2, h3, h4 {
     #redcolor {
     color: #ee4518;
   }
-  
+
+#yellowfont {
+  color: #fad201;
+}
 
 
 }
